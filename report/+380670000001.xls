@@ -1,0 +1,55 @@
+<html><head><meta charset="utf-8"></head><body>
+<table border="1">
+<tr><td colspan="3">ПІБ<td colspan="4">Бондаренко Віктор Пилипович
+<tr><td colspan="3">Телефон<td colspan="4">="+380670000001"
+<tr><td colspan="3">Область<td colspan="4">ХЗ
+<tr><td colspan="3">Населений пункт<td colspan="4">ХЗ
+</table><br>
+
+<table border="1">
+<tr><td colspan="3">Оптимізація<td>Було<td>Стало 
+<tr><td colspan="3">ЗП для обрахунку пенсії<td>3764,4<td>3764,4
+<tr><td colspan="3">Інд. Коеф. Стажу<td>0,59833<td>0,59833
+<tr><td colspan="3">Інд. Коеф. ЗП<td>3,04048<td>3,57534
+<tr><td colspan="3">Додаткові виплати (понаднормовий стаж, інфвалідність, тощо)<td>493,68<td>493,68
+<tr><td colspan="3">Пенсія за віком<td>6848,27<td>8052,93
+<tr><td colspan="3">Пенсія з урахуванням доплат<td>7341,95<td>8546,61
+</table><br>
+
+<table border="1">
+<tr><td colspan="3">Період для додавання<td>Листопад 1991<td>Жовтень 1996
+<tr><td colspan="3">Період для видалення<td>Жовтень 2002<td>Січень 2009
+</table>
+
+<br><br><b>Відомості по заробітній платі</b><table border="1"><tr><td>Рік
+<td>&nbsp;<td>Січень
+<td>Лютий
+<td>Березень
+<td>Квітень
+
+                 <td>Травень
+<td>Червень
+<td>Липень
+<td>Серпень
+<td>Вересень
+
+                 <td>Жовтень
+<td>Листопад
+<td>Грудень
+<td>Всього
+</tr>
+<tr><td rowspan="2" valign="middle" align="center">1991<td>ЗП<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>0,024</i></font><td>0,0277</i></font><td>0,05</tr><tr><td>Коеф. ЗП<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>4,84848</i></font><td>5,59596</i></font><td>10,44444</tr>
+<tr><td rowspan="2" valign="middle" align="center">1992<td>ЗП<td>0,0853</i></font><td>0,0941</i></font><td>0,1331</i></font><td>0,0808</i></font><td>0,1746</i></font><td>0,1083</i></font><td>0,189</i></font><td>0,212</i></font><td>0,4026</i></font><td>0,4576</i></font><td>0,5908</i></font><td>0,9513</i></font><td>3,48</tr><tr><td>Коеф. ЗП<td>5,59711</i></font><td>5,59786</i></font><td>5,60185</i></font><td>2,9023</i></font><td>5,32642</i></font><td>2,18083</i></font><td>3,73149</i></font><td>3,91</i></font><td>5,60022</i></font><td>5,59961</i></font><td>5,6</i></font><td>5,59984</i></font><td>57,24753</tr>
+<tr><td rowspan="2" valign="middle" align="center">1993<td>ЗП<td>0,7954</i></font><td>0,9998</i></font><td>1,0897</i></font><td>1,2551</i></font><td>1,7074</i></font><td>0,367</i></font><td>3,1486</i></font><td>4,5851</i></font><td>5,8835</i></font><td>9,5287</i></font><td>8,479</i></font><td>44,8421</i></font><td>82,68</tr><tr><td>Коеф. ЗП<td>5,59983</i></font><td>5,59987</i></font><td>4,74918</i></font><td>4,94212</i></font><td>5,60005</i></font><td>0,60738</i></font><td>4,11238</i></font><td>5,16707</i></font><td>2,82395</i></font><td>3,76224</i></font><td>2,58791</i></font><td>5,36046</i></font><td>50,91244</tr>
+<tr><td rowspan="2" valign="middle" align="center">1994<td>ЗП<td>40,2602</i></font><td>21,5991</i></font><td>32,9243</i></font><td>30,8394</i></font><td>37,2082</i></font><td>34,3406</i></font><td>31,397</i></font><td>31,2194</i></font><td>30,6761</i></font><td>52,246</i></font><td>64,2943</i></font><td>108,1832</i></font><td>515,19</tr><tr><td>Коеф. ЗП<td>5,40026</i></font><td>2,86604</i></font><td>3,85309</i></font><td>3,44805</i></font><td>3,88868</i></font><td>3,14094</i></font><td>2,66922</i></font><td>2,52871</i></font><td>2,3213</i></font><td>2,67851</i></font><td>2,43083</i></font><td>3,09976</i></font><td>38,32539</tr>
+<tr><td rowspan="2" valign="middle" align="center">1995<td>ЗП<td>35,32</i></font><td>56,11</i></font><td>241,65</i></font><td>255,32</i></font><td>245,9</i></font><td>245,82</i></font><td>293,28</i></font><td>177,89</i></font><td>258,23</i></font><td>416,05</i></font><td>460,09</i></font><td>688,18</i></font><td>3373,84</tr><tr><td>Коеф. ЗП<td>1,101</i></font><td>1,35107</i></font><td>4,81087</i></font><td>4,75722</i></font><td>4,0484</i></font><td>3,44334</i></font><td>3,86709</i></font><td>2,18565</i></font><td>2,91029</i></font><td>4,37119</i></font><td>4,54545</i></font><td>5,52844</i></font><td>42,92001</tr>
+<tr><td rowspan="2" valign="middle" align="center">1996<td>ЗП<td>413,01</i></font><td>487,2</i></font><td>343,93</i></font><td>449,6</i></font><td>551,46</i></font><td>239,79</i></font><td>492,88</i></font><td>446,17</i></font><td>575,94</i></font><td>737,39</i></font><td>&nbsp;<td>&nbsp;<td>4737,37</tr><tr><td>Коеф. ЗП<td>3,99893</i></font><td>4,47178</i></font><td>2,92582</i></font><td>3,86653</i></font><td>4,61705</i></font><td>1,91113</i></font><td>3,77802</i></font><td>3,43234</i></font><td>4,34017</i></font><td>5,46741</i></font><td>&nbsp;<td>&nbsp;<td>38,80918</tr>
+<tr><td rowspan="2" valign="middle" align="center">2000<td>ЗП<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>1000,0</i></font><td>0,0</i></font><td>1000,0</i></font><td>845,46</i></font><td>1000,0</i></font><td>1000,0</i></font><td>4845,46</tr><tr><td>Коеф. ЗП<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>4,19305</i></font><td>0,0</i></font><td>4,01542</i></font><td>3,32714</i></font><td>3,88229</i></font><td>3,37541</i></font><td>18,79331</tr>
+<tr><td rowspan="2" valign="middle" align="center">2001<td>ЗП<td>419,85</i></font><td>419,85</i></font><td>1088,15</i></font><td>869,52</i></font><td>870,36</i></font><td>917,43</i></font><td>703,98</i></font><td>1600,0</i></font><td>45,84</i></font><td>346,17</i></font><td>732,81</i></font><td>939,88</i></font><td>8953,84</tr><tr><td>Коеф. ЗП<td>1,65693</i></font><td>1,59239</i></font><td>3,87201</i></font><td>3,00945</i></font><td>2,87285</i></font><td>2,88672</i></font><td>2,15081</i></font><td>4,85835</i></font><td>0,14047</i></font><td>1,03103</i></font><td>2,19116</i></font><td>2,4835</i></font><td>28,74567</tr>
+<tr><td rowspan="2" valign="middle" align="center">2002<td>ЗП<td>1268,54</i></font><td>1156,06</i></font><td>1217,46</i></font><td>1272,58</i></font><td>952,78</i></font><td>1041,97</i></font><td>942,55</i></font><td>630,27</i></font><td>1122,24</i></font><td bgcolor="#a9a9a9">857,62</i></font><td bgcolor="#a9a9a9">1049,91</i></font><td bgcolor="#a9a9a9">1028,94</i></font><td>12540,92</tr><tr><td>Коеф. ЗП<td>3,95479</i></font><td>3,51707</i></font><td>3,4313</i></font><td>3,57687</i></font><td>2,65487</i></font><td>2,76084</i></font><td>2,36762</i></font><td>1,61579</i></font><td>2,86915</i></font><td bgcolor="#a9a9a9">2,15759</i></font><td bgcolor="#a9a9a9">2,6533</i></font><td bgcolor="#a9a9a9">2,32314</i></font><td>33,88233</tr>
+<tr><td rowspan="2" valign="middle" align="center">2003<td>ЗП<td bgcolor="#a9a9a9">1192,61</i></font><td bgcolor="#a9a9a9">1061,56</i></font><td bgcolor="#a9a9a9">1073,37</i></font><td bgcolor="#a9a9a9">957,59</i></font><td bgcolor="#a9a9a9">1119,04</i></font><td bgcolor="#a9a9a9">1298,1</i></font><td bgcolor="#a9a9a9">1737,09</i></font><td bgcolor="#a9a9a9">353,92</i></font><td bgcolor="#a9a9a9">1007,67</i></font><td bgcolor="#a9a9a9">491,17</i></font><td bgcolor="#a9a9a9">1330,0</i></font><td bgcolor="#a9a9a9">1330,0</i></font><td>12952,12</tr><tr><td>Коеф. ЗП<td bgcolor="#a9a9a9">3,59101</i></font><td bgcolor="#a9a9a9">3,24676</i></font><td bgcolor="#a9a9a9">3,10061</i></font><td bgcolor="#a9a9a9">2,75859</i></font><td bgcolor="#a9a9a9">3,16838</i></font><td bgcolor="#a9a9a9">3,32386</i></font><td bgcolor="#a9a9a9">4,55487</i></font><td bgcolor="#a9a9a9">0,94591</i></font><td bgcolor="#a9a9a9">2,52815</i></font><td bgcolor="#a9a9a9">1,22593</i></font><td bgcolor="#a9a9a9">3,3869</i></font><td bgcolor="#a9a9a9">3,13214</i></font><td>34,96311</tr>
+<tr><td rowspan="2" valign="middle" align="center">2007<td>ЗП<td bgcolor="#a9a9a9">97,32</i></font><td bgcolor="#a9a9a9">1028,2</i></font><td bgcolor="#a9a9a9">1047,65</i></font><td bgcolor="#a9a9a9">1002,48</i></font><td bgcolor="#a9a9a9">926,79</i></font><td bgcolor="#a9a9a9">1046,44</i></font><td bgcolor="#a9a9a9">1195,67</i></font><td bgcolor="#a9a9a9">1203,88</i></font><td bgcolor="#a9a9a9">1292,3</i></font><td bgcolor="#a9a9a9">1443,29</i></font><td bgcolor="#a9a9a9">1537,4</i></font><td bgcolor="#a9a9a9">1383,55</i></font><td>13204,97</tr><tr><td>Коеф. ЗП<td bgcolor="#a9a9a9">0,09697</i></font><td bgcolor="#a9a9a9">0,99479</i></font><td bgcolor="#a9a9a9">0,95562</i></font><td bgcolor="#a9a9a9">0,91252</i></font><td bgcolor="#a9a9a9">0,81208</i></font><td bgcolor="#a9a9a9">0,81949</i></font><td bgcolor="#a9a9a9">0,97825</i></font><td bgcolor="#a9a9a9">1,00404</i></font><td bgcolor="#a9a9a9">1,04371</i></font><td bgcolor="#a9a9a9">1,11667</i></font><td bgcolor="#a9a9a9">1,16803</i></font><td bgcolor="#a9a9a9">0,95869</i></font><td>10,86086</tr>
+<tr><td rowspan="2" valign="middle" align="center">2008<td>ЗП<td bgcolor="#a9a9a9">1333,85</i></font><td bgcolor="#a9a9a9">1475,58</i></font><td bgcolor="#a9a9a9">1410,1</i></font><td bgcolor="#a9a9a9">1536,56</i></font><td bgcolor="#a9a9a9">1290,35</i></font><td bgcolor="#a9a9a9">1354,06</i></font><td bgcolor="#a9a9a9">1556,23</i></font><td bgcolor="#a9a9a9">1598,73</i></font><td bgcolor="#a9a9a9">1630,13</i></font><td bgcolor="#a9a9a9">1880,46</i></font><td bgcolor="#a9a9a9">1582,03</i></font><td bgcolor="#a9a9a9">1736,98</i></font><td>18385,06</tr><tr><td>Коеф. ЗП<td bgcolor="#a9a9a9">0,99373</i></font><td bgcolor="#a9a9a9">1,01793</i></font><td bgcolor="#a9a9a9">0,94339</i></font><td bgcolor="#a9a9a9">1,01423</i></font><td bgcolor="#a9a9a9">0,82537</i></font><td bgcolor="#a9a9a9">0,78346</i></font><td bgcolor="#a9a9a9">0,96562</i></font><td bgcolor="#a9a9a9">1,01741</i></font><td bgcolor="#a9a9a9">0,99202</i></font><td bgcolor="#a9a9a9">1,12796</i></font><td bgcolor="#a9a9a9">0,9933</i></font><td bgcolor="#a9a9a9">1,01836</i></font><td>11,69278</tr>
+<tr><td rowspan="2" valign="middle" align="center">2009<td>ЗП<td bgcolor="#a9a9a9">1482,62</i></font><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>1482,62</tr><tr><td>Коеф. ЗП<td bgcolor="#a9a9a9">1,02257</i></font><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>1,02257</tr>
+</table><br>
+Відповідно до Закону України «Про захист персональних даних» від 01.06.2010 №2297-VI<br>надаю згоду Політичні партії «Об’єднання «Самопоміч»» на обробку та використання персональних<br>даних про з метою оптимізації обрахунку пенсії та інших дії, необхідних для досягненнявказаної вище мети.<br><br>Підпис _______________<br><br>Я попереджений, що розрахунки є оціночноми і носять рекомендаційний характер.<br><br>Дата _______________ Підпис _______________ ПІБ ______________________________________</body></html>
