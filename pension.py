@@ -24,7 +24,7 @@ class Zarplata:
                       'Грудень']
         self.salary = []  # Зарплата {}
         with open('./data/Coefficient.csv', 'r') as theFile:
-            reader = csv.DictReader(theFile)
+            reader = csv.DictReader(theFile, delimiter=';')
             i = 0
             for line in reader:
                 self.salary.append({'nn': i,
