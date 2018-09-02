@@ -6,6 +6,10 @@ class OutFile:
         self.salary = salary
         self.output = output
         self.start_p = start_p
+        if not os.path.isdir('./in'):
+            os.mkdir('./in')
+        if not os.path.isdir('./report'):
+            os.mkdir('./report')
         if not os.path.isfile('./data/clients.csv'):
             cl_file = open('./data/clients.csv', 'w', encoding='cp1251')
             cl = csv.writer(cl_file, delimiter=';')
