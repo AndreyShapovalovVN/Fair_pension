@@ -140,7 +140,10 @@ class GoodSalary:
             rc = 0
             for rr in self.salary_old:
                 rc += rr.get('rc')
-            self.period_a.append([0, len(self.salary_old)-1, rc, self.salary_old[0]])
+            try:
+                self.period_a.append([0, len(self.salary_old) - 1, rc, self.salary_old[0]])
+            except IndexError:
+                pass
         else:
             for m_st in range(len(self.salary_old)-60):
                 rc = 0
@@ -204,9 +207,13 @@ class GoodSalary:
         self.add_p = False
         self.add_period(add=self.add_p)
         self.del_period()
-        if self.period_d[0][4] < self.period_a[0][2]/60 or not dd:
-            self.clear()
-            self.add_p = True
-            self.add_period(add=self.add_p)
-            self.del_period()
+        try:
+            if self.period_d[0][4] < self.period_a[0][2] / 60 or not dd:
+                self.clear()
+                self.add_p = True
+                self.add_period(add=self.add_p)
+                self.del_period()
+        except IndexError:
+            pass
+
         return self.add_p
