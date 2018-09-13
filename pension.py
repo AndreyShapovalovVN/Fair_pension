@@ -145,7 +145,7 @@ class GoodSalary:
             except IndexError:
                 pass
         else:
-            for m_st in range(len(self.salary_old)-60):
+            for m_st in range(len(self.salary_old) - 59):
                 rc = 0
                 for rr in self.salary_old[m_st:m_st+59]:
                     rc += rr.get('rc')
