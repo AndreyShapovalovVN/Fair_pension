@@ -136,20 +136,23 @@ class GoodSalary:
 
     # Метод выбора лучшего период до 01.07.2000
     def add_period(self, add=True):
-        if len(self.salary_old) <= 60:
+        for i_start in range(len(self.salary_old)):
+            nn = None
             rc = 0
-            for rr in self.salary_old:
-                rc += rr.get('rc')
-            try:
-                self.period_a.append([0, len(self.salary_old) - 1, rc, self.salary_old[0]])
-            except IndexError:
-                pass
-        else:
-            for m_st in range(len(self.salary_old) - 59):
-                rc = 0
-                for rr in self.salary_old[m_st:m_st+59]:
-                    rc += rr.get('rc')
-                self.period_a.append([m_st, m_st+59, rc, self.salary_old[m_st]])
+            for index, line in enumerate(self.salary_old[i_start:]):
+                if not nn:
+                    rc = line.get('rc')
+                    nn = line.get('nn')
+                else:
+                    if nn+1 == line.get('nn'):
+                        rc += line.get('rc')
+                        nn = line.get('nn')
+                    else:
+                        self.period_a.append([i_start, i_start + index+1, rc, self.salary_old[i_start], nn])
+                        break
+                if index == 59:
+                    self.period_a.append([i_start, i_start + 59, rc, self.salary_old[i_start], nn])
+                    break
 
         self.period_a.sort(key=lambda x: x[2], reverse=True)
         if add:

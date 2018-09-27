@@ -356,6 +356,25 @@ class MainForm:
         if self.get_float('Entry6')*1200 < self.get_float('Entry12') / 2 or self.get_float('Entry6')*1200 < 1:
             messagebox.showerror("Error", 'Перевірте:\n "Коеф. Стажу" та\n "Стаж за 1 списком"')
         else:
+            # Сохраняю текущее состояние
+            savejson = {'salary': self.zp.salary,
+                        'form': [{'self.Entry4': self.Entry4.get()},
+                                 {'self.Entry5': self.Entry5.get()},
+                                 {'self.Entry6': self.Entry6.get()},
+                                 {'self.Entry7': self.Entry7.get()},
+                                 {'self.Entry8': self.Entry8.get()},
+                                 {'self.Entry9': self.Entry9.get()},
+                                 {'self.Entry10': self.Entry10.get()},
+                                 {'self.Entry11': self.Entry11.get()},
+                                 {'self.Entry12': self.Entry12.get()},
+                                 {'self.Entry13': self.Entry13.get()}]}
+            f_name = self.Entry9.get().replace(' ', '') if self.Entry9.get() else '9999999999'
+            if not os.path.isdir('./in'):
+                os.mkdir('./in')
+            with open('./in/' + f_name + '.json', 'w', encoding='utf8') as js:
+                json.dump(savejson, js)
+
+
             gs = pension.GoodSalary(self.zp.get_salary(), self.get_float('Entry6'), self.get_float('Entry12'))
             gs.calc_kz()
             self.zp.set_pension(gs.salary_clear)
@@ -411,22 +430,6 @@ class MainForm:
 
             mes = messagebox.askyesno("Результат розрахунку", 'Коефіцієнт ЗП - {}\n Зберегти?'.format(output[2][2]))
             if mes:
-                # Сохраняю текущее состояние
-                savejson = {'salary': self.zp.salary,
-                            'form': [{'self.Entry4': self.Entry4.get()},
-                                     {'self.Entry5': self.Entry5.get()},
-                                     {'self.Entry6': self.Entry6.get()},
-                                     {'self.Entry7': self.Entry7.get()},
-                                     {'self.Entry8': self.Entry8.get()},
-                                     {'self.Entry9': self.Entry9.get()},
-                                     {'self.Entry10': self.Entry10.get()},
-                                     {'self.Entry11': self.Entry11.get()},
-                                     {'self.Entry12': self.Entry12.get()},
-                                     {'self.Entry13': self.Entry13.get()}]}
-                f_name = output[-1].get('tel').replace(' ', '') if output[-1].get('tel') else '9999999999'
-                with open('./in/'+f_name+'.json', 'w', encoding='utf8') as js:
-                    json.dump(savejson, js)
-
                 # ФОрмирую печатную форму
                 outreport.OutFile(self.zp.salary, output, gs.start_p).save()
                 gs.clear()
